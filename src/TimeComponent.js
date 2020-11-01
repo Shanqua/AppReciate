@@ -1,7 +1,8 @@
 
 const TimeComponent = () =>{
-
-return("From Time component");
+const today = new Date();
+const date = today.toLocaleString();
+return(date);
 };
 
 export default TimeComponent;

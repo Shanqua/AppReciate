@@ -11,7 +11,7 @@ function App() {
         <p>
           Hello world!
         </p>
-        <p>The current time is <strong><TimeComponent/></strong></p>
+        <p>The current date and time is <strong><TimeComponent/></strong></p>
       </header>
     </div>
   );
