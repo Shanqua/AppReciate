@@ -1,7 +1,7 @@
 
 const TimeComponent = () =>{
 
-return("FRom Time component");
+return("From Time component");
 };
 
 export default TimeComponent;
