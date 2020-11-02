@@ -11,10 +11,8 @@ export const fetchAllFeatures=()=> {
     setTimeout(resolve, 10, features);
   })
   .then(function(features) {
-    console.log("hellow");
   console.log(features); // "Success"
 });
 };
 
 export default fetchAllFeatures;
-fetchAllFeatures();

@@ -5,7 +5,14 @@ import TimeComponent from './TimeComponent';
 import fetchAllFeatures from './FeatureFlag';
 
 function App() {
+
+const getFeatureState = featureName =>{
 const flagVal = fetchAllFeatures();
+  //Check for FeatureName against returned values
+  //check if flagVal has the value featureName
+  console.log(flagVal);
+  console.log(featureName);
+};
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +22,7 @@ const flagVal = fetchAllFeatures();
         </p>
         <p>The current date and time is <strong><TimeComponent/></strong></p>
       </header>
-      
+      {getFeatureState("X")}
 
     </div>
   );
